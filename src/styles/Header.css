@@ -1,0 +1,9 @@
+.Header{
+    background-image: url('../assets/imgs/Header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 80px;
+    position: fixed;
+}
