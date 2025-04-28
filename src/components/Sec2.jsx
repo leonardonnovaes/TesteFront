@@ -39,9 +39,7 @@ export default function Sec2() {
           <p>/ Metodologias e Gestão</p>
           <p>/ Além disso, a instituição incentiva fortemente o uso dessas metodologias e outras abordagens inovadoras que fazem parte do dia a dia de grandes empresas.</p>
         </div>
-        <button className="buttontop" onClick={scrollToTop}>
-          <img src="src/assets/imgs/buttontop.png" alt="" />
-        </button>
+       
 
       </div>
 
@@ -57,7 +55,9 @@ export default function Sec2() {
         </div>
 
     )}
-   
+    <button className="buttontop" onClick={scrollToTop}>
+          <img src="src/assets/imgs/buttontop.png" alt="" />
+        </button>
     </section>
   )
 }
