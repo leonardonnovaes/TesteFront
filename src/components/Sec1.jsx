@@ -3,7 +3,7 @@ import '../styles/Sec1.css'
 export default function Sec1() {
 
   function ProximaPagina(){
-    const section = document.getElementById('sec2');
+    const section = document.querySelector('.sec2');
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
     }
