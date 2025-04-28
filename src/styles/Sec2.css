@@ -3,7 +3,8 @@
     flex-direction: line;
     text-align: center;
     align-items: center;
-    
+    width: 100%;
+    background-color: white;
 }
 .sec2-text{
     width: 820px;
