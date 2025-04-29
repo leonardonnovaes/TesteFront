@@ -1,0 +1,67 @@
+.sec5{
+    background: linear-gradient(to right, rgb(5, 5, 48) 20%, black);
+    color: var(--text-color);
+    font-family: Ghotham-tittle;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.sec5 h1{
+    width: 822px;
+    height: 88px;
+    font-weight: 500;
+    font-size: 80px;
+    color: var(--text-color);
+    padding: 40px;
+}
+#contato{
+    width: 442px;
+    height: 73px;
+    color: var(--fiap-color);
+    padding: 10px;
+    border: 2px solid var(--fiap-color);
+    background: none;
+    cursor: pointer;
+}
+#contato:hover{
+    background-color: var(--fiap-color);
+    color: black;
+}
+.form-card {
+    margin-top: 20px;
+    border: 2px solid var(--fiap-color);
+    background: none;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    width: 442px;
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+  }
+  
+  .form-content input,
+  .form-content textarea {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid var(--fiap-color);
+    background: none;
+    color: var(--text-color);
+    border-radius: 5px;
+  }
+  
+  .form-content button {
+    background:none;
+    border: 2px solid var(--fiap-color);
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .form-content button:hover{
+    background-color: var(--fiap-color);
+    color: black;
+  }
+  
