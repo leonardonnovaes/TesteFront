@@ -43,13 +43,10 @@ export default function Sec4() {
             <div className="btn-abrir">
               <h3>{conteudo.titulo}</h3>
               <button className="abrir-btn" onClick={() => toggleTexto(index)}>
-                <img
-                  src={
-                    abertoIndex === index
-                      ? {fechar} 
-                      : {abrir}                 }
-                  alt="Botão"
-                />
+              <img
+                 src={abertoIndex === index ? fechar : abrir}
+                 alt="Botão"
+              />
               </button>
             </div>
 
