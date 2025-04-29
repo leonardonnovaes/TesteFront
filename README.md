@@ -26,7 +26,7 @@ https://teste-front-ashy.vercel.app
 ## 📥 Como Rodar o Projeto
 ```bash
 git clone https://github.com/leonardonnovaes/TesteFront.git
-cd projeto-fiap
+cd TesteFront
 npm install
 npm run dev
 ```
