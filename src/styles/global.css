@@ -336,7 +336,7 @@ section{
       line-height: normal;
     }
   }
-  @media (max-width: 1358px) {
+  @media (max-width: 1368px) {
     .sec2{
       display: flex;
       height: auto;
