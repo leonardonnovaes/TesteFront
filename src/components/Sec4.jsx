@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import '../styles/Sec4.css';
+import fechar from '../assets/imgs/Fechar.png';
+import abrir from '../assets/imgs/Abrir.png';
 
 export default function Sec4() {
   const [abertoIndex, setAbertoIndex] = useState(null);
@@ -44,8 +46,8 @@ export default function Sec4() {
                 <img
                   src={
                     abertoIndex === index
-                      ? "src/assets/imgs/Fechar.png" 
-                      : "src/assets/imgs/Abrir.png"                   }
+                      ? {fechar} 
+                      : {abrir}                 }
                   alt="Botão"
                 />
               </button>

@@ -1,5 +1,7 @@
 import '../styles/Sec2.css'
 import { useState } from 'react';
+import nextFiap from '../assets/imgs/fiap-next.jpg';
+import btnup from '../assets/imgs/buttontop.png';
 
 export default function Sec2() {
 
@@ -19,7 +21,7 @@ export default function Sec2() {
         <h1>EDUCAÇÃO E TECH</h1>
         <div id='imgtext'>
         <p>A FIAP é muito mais do que uma faculdade de tecnologia, é um verdadeiro ecossistema de inovação e aprendizado. Conhecida por sua abordagem moderna e focada no mercado, a instituição é referência quando se trata de formar profissionais capacitados para os desafios do futuro. Seja na graduação, pós-graduação ou cursos livres, a FIAP entrega um ensino que mistura teoria e prática, preparando os alunos para atuar em empresas de ponta ou até mesmo empreender.</p>
-        <img src="src/assets/imgs/fiap-next.jpg" 
+        <img src={nextFiap} 
         alt="img next-fiap" 
         onClick={openModal}
         style={{cursor: 'pointer', width: '100%', height: 'auto'}}
@@ -47,7 +49,7 @@ export default function Sec2() {
        <div className="modal-overlay" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <img
-              src="src/assets/imgs/fiap-next.jpg"
+              src={nextFiap}
               alt="Imagem em Modal"
               style={{ width: '100%', height: 'auto' }}
             />
@@ -56,7 +58,7 @@ export default function Sec2() {
 
     )}
     <button className="buttontop" onClick={scrollToTop}>
-          <img src="src/assets/imgs/buttontop.png" alt="" />
+          <img src={btnup} alt="" />
         </button>
     </section>
   )
