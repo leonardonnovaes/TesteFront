@@ -1,5 +1,5 @@
 import '../styles/Sec1.css'
-import btndown from 'src/assets/imgs/btn-scroll-down.png' 
+import btndown from '../assets/imgs/btn-scroll-down.png' 
 export default function Sec1() {
 
   function ProximaPagina(){
