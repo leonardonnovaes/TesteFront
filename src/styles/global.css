@@ -22,3 +22,318 @@ section{
     padding: 0;
     margin: 0;
 }
+
+  
+/*Responsividade*/
+@media (max-width: 768px) {
+    .Text {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .Text h1 {
+      font-size: 36px;
+      width: 100%;
+      height: auto;
+    }
+  
+    .Text p {
+      font-size: 16px;
+      width: 100%;
+      height: auto;
+    }
+  
+    #button-down {
+      width: auto;
+      height: auto;
+    }
+  
+    #button-down p {
+      font-size: 10px;
+      line-height: 20px;
+    }
+  
+    .sec2-text {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    .sec2-text h1 {
+      font-size: 40px;
+      width: 100%;
+    }
+  
+    .sec2-text p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  
+    #imgtext {
+      width: 100%;
+      height: auto;
+    }
+  
+    .opc h1,
+    .sec5 h1 {
+      font-size: 36px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .form-card,
+    #contato {
+      width: 90%;
+    }
+  
+    .form-content input,
+    .form-content textarea {
+      width: 100%;
+    }
+  
+    .btn-opc {
+      width: 100%;
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Text h1 {
+      font-size: 28px;
+    }
+  
+    .Text p,
+    .sec2-text p {
+      font-size: 14px;
+    }
+  
+    .sec2-text h1 {
+      font-size: 28px;
+    }
+  
+    .opc h1,
+    .sec5 h1 {
+      font-size: 28px;
+    }
+  
+    #contato {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .form-content button {
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 1024px) and (min-width: 769px) {
+    .Text {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .Text h1 {
+      font-size: 48px;
+      width: 100%;
+      height: auto;
+    }
+  
+    .Text p {
+      font-size: 18px;
+      width: 100%;
+      height: auto;
+    }
+  
+    .sec2-text {
+      width: 90%;
+      padding: 50px 30px;
+    }
+  
+    .sec2-text h1 {
+      font-size: 60px;
+      width: 100%;
+    }
+  
+    .sec2-text p {
+      font-size: 18px;
+    }
+  
+    #imgtext {
+      width: 100%;
+      height: auto;
+    }
+  
+    .opc h1,
+    .sec5 h1 {
+      font-size: 60px;
+      width: 100%;
+    }
+  
+    #contato,
+    .form-card {
+      width: 80%;
+    }
+  
+    .form-content input,
+    .form-content textarea {
+      width: 100%;
+    }
+  
+    .btn-opc {
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .main,
+    .MaiorFacul {
+      background-attachment: scroll; /* remove o efeito fixo se for pesado */
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .Text {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .Text h1 {
+      font-size: 40px;
+      width: 100%;
+      height: auto;
+    }
+  
+    .Text p {
+      font-size: 18px;
+      width: 100%;
+      height: auto;
+    }
+  
+    .sec2 {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .sec2-text {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .sec2-text h1 {
+      font-size: 40px;
+      width: 100%;
+    }
+  
+    .sec2-text p {
+      font-size: 18px;
+      width: 100%;
+    }
+  
+    #imgtext {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .sec4 .opc h1,
+    .sec5 h1 {
+      font-size: 48px;
+      width: 100%;
+    }
+  
+    #contato,
+    .form-card {
+      width: 90%;
+    }
+  
+    .form-content input,
+    .form-content textarea {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    section {
+      min-height: auto;
+      height: auto;
+      padding: 40px 20px;
+    }
+  
+    .Text {
+      width: 90%;
+      padding: 20px;
+      height: auto;
+    }
+  
+    .Text h1 {
+      font-size: 40px;
+      width: 100%;
+      height: auto;
+    }
+  
+    .Text p {
+      font-size: 18px;
+      line-height: 1.5;
+      height: auto;
+    }
+  
+    .sec2 {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .sec2-text {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .sec2-text h1 {
+      font-size: 40px;
+      width: 100%;
+    }
+  
+    .sec2-text p {
+      font-size: 18px;
+      width: 100%;
+    }
+  
+    #imgtext {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .sec4 .opc h1,
+    .sec5 h1 {
+      font-size: 48px;
+      width: 100%;
+    }
+  
+    #contato,
+    .form-card {
+      width: 90%;
+    }
+  
+    .form-content input,
+    .form-content textarea {
+      width: 100%;
+    }
+  
+    #button-down {
+      height: auto;
+      gap: 10px;
+    }
+  
+    #button-down img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    #button-down p {
+      font-size: 10px;
+      line-height: normal;
+    }
+  }
+  
