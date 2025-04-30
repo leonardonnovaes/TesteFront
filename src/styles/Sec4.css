@@ -23,7 +23,7 @@
     width: 1440px;
     border-top: 2px solid var(--text-color);
     padding: 1rem 0;
-    transition: all 0.3s ease;
+    transition: all 0.80s ease;
 }
 
 .btn-opc p {

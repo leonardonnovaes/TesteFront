@@ -186,7 +186,7 @@ section{
   
     .main,
     .MaiorFacul {
-      background-attachment: scroll; /* remove o efeito fixo se for pesado */
+      background-attachment: scroll; 
     }
   }
 
